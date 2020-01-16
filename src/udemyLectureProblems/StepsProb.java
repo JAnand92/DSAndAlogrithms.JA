@@ -4,7 +4,7 @@ public class StepsProb {
 
     public static void main(String[] args) {
         try {
-            /*pattern1(3);
+            pattern1(3);
             pattern2(3);
             pattern3(3);
             pattern4(3);
@@ -12,10 +12,8 @@ public class StepsProb {
             pattern6(3);
             pattern7(3);
             pattern8(3);
-            pattern9(3);*/
+            pattern9(3);
             pattern10(3);
-
-
         } catch (Exception e) {
             System.out.println(e.fillInStackTrace());
         }
@@ -26,7 +24,6 @@ public class StepsProb {
     * ##
     * ###
     * */
-
     /*Normal * pattern in +90 degree shape*/
     private static void pattern1(int n) {
         try {
@@ -46,7 +43,6 @@ public class StepsProb {
     *  ##
     * ###
     * */
-
     /*Normal * pattern in -90 degree shape*/
     private static void pattern2(int n) {
         try {
@@ -70,7 +66,6 @@ public class StepsProb {
     * ##
     * #
     * */
-
     private static void pattern3(int n) {
         try {
             for(int i=0;i<n;i++) {
@@ -92,7 +87,6 @@ public class StepsProb {
     *  ##
     *   #
     */
-
     private static void pattern4(int n) {
         try {
             for(int i=0;i<n;i++) {
@@ -136,7 +130,6 @@ public class StepsProb {
     *  ###
     *   #
     * */
-
     private static void pattern6(int n) {
         try {
             for(int i=0;i<n;i++) {
@@ -161,7 +154,6 @@ public class StepsProb {
     * ##
     * #
     * */
-
     private static void pattern7(int n) {
         try {
             for(int i=1;i<=n;i++) {
@@ -187,7 +179,6 @@ public class StepsProb {
     * ###
     *  #
     */
-
     private static  void pattern8(int n) {
         try {
             for(int i=1;i<=n;i++) {
@@ -215,7 +206,6 @@ public class StepsProb {
     }
 
     /*Left triangle pascal's*/
-
     /*
     *   #
     *  ##
@@ -223,7 +213,6 @@ public class StepsProb {
     *  ##
     *   #
     * */
-
     private static void pattern9(int n) {
         try{
             for(int i=1;i<=n;i++) {
@@ -252,14 +241,12 @@ public class StepsProb {
     }
 
     /*Sand glass star pattern*/
-
     /*#####
        ###
     *   #
     *  ###
     * #####
     */
-
     private static void pattern10(int n) {
         try {
             for(int i=0;i<n;i++) {
