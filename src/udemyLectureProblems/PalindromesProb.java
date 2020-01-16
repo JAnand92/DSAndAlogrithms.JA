@@ -1,3 +1,5 @@
+package udemyLectureProblems;
+
 public class PalindromesProb {
     public static void main(String[] args) {
         try {
@@ -5,6 +7,8 @@ public class PalindromesProb {
             palindromeUsingBytes("dada");
             palindromeUsingChar("nana");
             checkPalindromeNumber(121);
+            checkPalindrome("kaka");
+           checkPalindromeDifferently("aeii");
         } catch (Exception e) {
             System.out.println(e.fillInStackTrace());
         }
@@ -65,6 +69,45 @@ public class PalindromesProb {
             } else {
                 System.out.println("Not Palindrome Number!");
             }
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+    }
+
+    private static void checkPalindrome(String str) {
+        String revStr = "";
+        try {
+            for(int i=str.length()-1;i>=0;i--) {
+                revStr += str.charAt(i);
+            }
+            /*Check string is palindrome or not*/
+            if(str.equals(revStr)) {
+                System.out.println("Palindrome!");
+            } else {
+                System.out.println("Not Palindrome!");
+            }
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+    }
+
+    private static void checkPalindromeDifferently(String str) {
+        try {
+            int n = str.length();
+            boolean flag = false;
+                for (int i = 0; i <n/2 ; i++) {
+                    if(str.charAt(i) == str.charAt(n-1-i)) {
+                        flag = true;
+                    } else {
+                        flag = false;
+                        break;
+                    }
+                }
+                if(flag) {
+                    System.out.println("Palindrome!");
+                } else {
+                    System.out.println("Not Palindrome");
+                }
         } catch (Exception e) {
             System.out.println(e.fillInStackTrace());
         }
