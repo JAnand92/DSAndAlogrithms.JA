@@ -1,5 +1,6 @@
 package udemyLectureProblems;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -7,12 +8,13 @@ import java.util.Set;
 public class ReverseWordsInString {
     public static void main(String[] args) {
         try {
-           /* reverseWordsInString("Hello World!");
-            maxChars("Hello Three!");*/
-
-           countOccurrenceOfEachCharInString("hello brother!");
-           countDuplicateCharInString("hello brother!");
-           findFirstRepeatedAndNonRepeatedCharInString("hello!");
+            /*reverseWordsInString("Hello World!");
+            maxChars("Hello Three!");
+            countOccurrenceOfEachCharInString("hello brother!");
+            countDuplicateCharInString("hello brother!");
+            findFirstRepeatedAndNonRepeatedCharInString("hello!");*/
+            findTwoStringsAreAnagramOrNot("Hello Th22ere!!!", "he22llo There!");
+            isAnagramUsingSortMethod("Hello Th22ere!!!", "he22llo There!");
 
         } catch (Exception e) {
             System.out.println(e.fillInStackTrace());
@@ -175,7 +177,73 @@ public class ReverseWordsInString {
         }
     }
 
+    /*Java program to check two strings are anagram or not*/
+    /*Step 1: Build map first with char and their repeated value.*/
+    private static HashMap buildHashMap(String str) {
+        HashMap<Character, Integer> hashMap = new HashMap<>();
+        try {
+            /*[^\\w] is to replace all the punctuation remarks from sentences...*/
+            String cleanStr = str.replaceAll("[^\\w]", "").toLowerCase();
+            char[] chars = cleanStr.toCharArray();
+            for(char c : chars) {
+                if(!(hashMap.containsKey(c))) {
+                    hashMap.put(c,1);
+                } else {
+                    hashMap.put(c, hashMap.get(c)+1);
+                }
+            }
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+        return hashMap;
+    }
+    private static void findTwoStringsAreAnagramOrNot(String str1, String str2) {
+        try {
+           HashMap<Character, Integer> hashMap1 = buildHashMap(str1);
+           HashMap<Character, Integer> hashMap2 = buildHashMap(str2);
 
+           Set<Map.Entry<Character, Integer>> entries1 = hashMap1.entrySet();
+           Set<Map.Entry<Character, Integer>> entries2 = hashMap2.entrySet();
 
+           if(entries1.size() != entries2.size()) {
+               System.out.println("Not Anagram!");
+           } else {
+               if(entries1.equals(entries2)) {
+                   System.out.println("Anagram!");
+               }
+           }
+           /*Different way of doing it...*/
+            Set<Character> characters1 = hashMap1.keySet();
+            Set<Character> characters2 = hashMap2.keySet();
+
+            if(characters1.size() != characters2.size()) {
+                System.out.println("Not Anagram!");
+            } else {
+                if (characters1.equals(characters2)) {
+                    System.out.println("Anagram!");
+                }
+            }
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+    }
+
+    /*This method will check anagram using sort method.*/
+    private static void isAnagramUsingSortMethod(String str1, String str2) {
+        try {
+            char[] chars1 = str1.replaceAll("[^\\w]", "").toLowerCase().toCharArray();
+            Arrays.sort(chars1);
+            char[] chars2 = str2.replaceAll("[^\\w]", "").toLowerCase().toCharArray();
+            Arrays.sort(chars2);
+            boolean flag = Arrays.equals(chars1,chars2);
+            if(flag) {
+                System.out.println("Anagram!");
+            } else {
+                System.out.println("Not Anagram!");
+            }
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+    }
 
 }
