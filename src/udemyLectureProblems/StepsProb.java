@@ -8,8 +8,12 @@ public class StepsProb {
             pattern2(3);
             pattern3(3);
             pattern4(3);
-            pattern5(3);*/
+            pattern5(3);
             pattern6(3);
+            pattern7(3);
+            pattern8(3);
+            pattern9(3);*/
+            pattern10(3);
 
 
         } catch (Exception e) {
@@ -145,6 +149,138 @@ public class StepsProb {
                 System.out.println();
             }
 
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+    }
+
+    /*
+    * #
+    * ##
+    * ###
+    * ##
+    * #
+    * */
+
+    private static void pattern7(int n) {
+        try {
+            for(int i=1;i<=n;i++) {
+                for(int j=1;j<=i;j++) {
+                    System.out.print("#");
+                }
+                System.out.println();
+            }
+            for(int i=1;i<=n;i++) {
+                for(int j=n-i;j>=1;j--) {
+                    System.out.print("#");
+                }
+                System.out.println();
+            }
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+    }
+
+    /* #
+    * ###
+    *#####
+    * ###
+    *  #
+    */
+
+    private static  void pattern8(int n) {
+        try {
+            for(int i=1;i<=n;i++) {
+                for(int j=n-i;j>=1;j--) {
+                    System.out.print(" ");
+                }
+                for(int k=1;k<2*i;k++) {
+                    System.out.print("#");
+                }
+                System.out.println();
+            }
+            for(int i=1;i<=n;i++) {
+                for(int j=1;j<=i;j++) {
+                    System.out.print(" ");
+                }
+                for(int k=2*(n-i);k>1;k--) {
+                    System.out.print("#");
+                }
+                System.out.println();
+            }
+
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+    }
+
+    /*Left triangle pascal's*/
+
+    /*
+    *   #
+    *  ##
+    * ###
+    *  ##
+    *   #
+    * */
+
+    private static void pattern9(int n) {
+        try{
+            for(int i=1;i<=n;i++) {
+                for(int j=n-i;j>=1;j--) {
+                    System.out.print(" ");
+                }
+                for(int k=1;k<=i;k++) {
+                    System.out.print("#");
+                }
+                System.out.println();
+            }
+
+            for(int i=1;i<n;i++) {
+                for(int j=1;j<=i;j++) {
+                    System.out.print(" ");
+                }
+                for(int k=1;k<=(n-i);k++) {
+                    System.out.print("#");
+                }
+                System.out.println();
+            }
+
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+    }
+
+    /*Sand glass star pattern*/
+
+    /*#####
+       ###
+    *   #
+    *  ###
+    * #####
+    */
+
+    private static void pattern10(int n) {
+        try {
+            for(int i=0;i<n;i++) {
+               for(int j=0;j<i;j++) {
+                   System.out.print(" ");
+               }
+               for(int k=2*(n-i);k>1;k--) {
+                   System.out.print("#");
+               }
+                System.out.println();
+            }
+
+            for(int i=1;i<n;i++) {
+                for(int j=n-i;j>1;j--) {
+                    System.out.print(" ");
+                }
+                for(int k=0;k<=2*i;k++) {
+                    System.out.print("#");
+                }
+                System.out.println();
+            }
         } catch (Exception e) {
             System.out.println(e.fillInStackTrace());
         }

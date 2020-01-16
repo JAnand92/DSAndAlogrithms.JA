@@ -4,9 +4,7 @@
     <list default="true" id="9d9bcdc0-9b20-41be-84da-ee4c7f9eeb4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAndAlogrithms/udemyLectureProblems/ArrayChunking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlogrithms/udemyLectureProblems/ArrayChunking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAndAlogrithms/udemyLectureProblems/ReverseWordsInString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlogrithms/udemyLectureProblems/ReverseWordsInString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/udemyLectureProblems/ReverseWordsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemyLectureProblems/ReverseWordsInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/udemyLectureProblems/StepsProb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemyLectureProblems/StepsProb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,8 @@
       <workItem from="1579020755329" duration="165000" />
       <workItem from="1579021100730" duration="16475000" />
       <workItem from="1579049508908" duration="8971000" />
-      <workItem from="1579147847176" duration="16344000" />
+      <workItem from="1579147847176" duration="16626000" />
+      <workItem from="1579203692773" duration="3696000" />
     </task>
     <servers />
   </component>
@@ -163,60 +162,49 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="858" y="86" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1579052474134" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1579164417963">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1579207530810">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579164417963" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1579164417962">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579207530810" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1579207530810">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579164417962" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1579164417962">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579207530810" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1579207530810">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579164417962" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1579164417962">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579207530810" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1579207530810">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579164417962" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1579164351455">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579207530810" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1579205342172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579164351455" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1579164351455">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579205342172" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1579205342172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579164351455" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1579164351455">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579205342172" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1579205342172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579164351455" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1579164351455">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579205342172" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1579205342172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579164351455" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1579147846710">
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579205342172" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1579203692506">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579147846710" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579203692506" />
     <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579151616899">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1579151616899" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579011299785">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579207557404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579011299785" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/udemyLectureProblems/StepsProb.java</url>
-          <line>138</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579207557404" />
   </component>
 </project>
