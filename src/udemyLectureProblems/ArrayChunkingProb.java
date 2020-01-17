@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 
-public class ArrayChunking {
+public class ArrayChunkingProb {
 
     public static void main(String[] args) {
         try {

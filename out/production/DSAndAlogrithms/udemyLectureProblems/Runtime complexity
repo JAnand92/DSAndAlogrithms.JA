@@ -1,0 +1,38 @@
+It describes the performance of an algorithm.
+
+How much more processing power/time required to run your algorithm if we double the inputs.
+
+Determining Complexity:
+
+1. Constant time - 1 - No matter how many elements we're working with, the algorithm/operation/whatever will always
+take the same amount of time.
+2. Logarithmic time - log(n) - You have this if doubling the number of elements you are iterating over doesn't double
+the amount of work. Always assume the searching operations are log(n)
+3. Liner time - (n) - Iterating through all the elements in a collection of data. if you see a for loop spanning from
+0 to array.length. You probably have 'n' or linear runtime.
+4. Quasilinear time - n*log(n) - You have this if doubling the number of elements you are iterating over does not double
+the amount of work. Always assume that any sorting operation is n*log(n).
+5. Quadratic time - n^2 - Every element in a collection has to be compared to every other element. "The handshake problem."
+6. Exponential time - 2^n - If you add a "Single" element to collection, the processing power required doubles.
+
+Big 'O' Notation:
+O(n) --> Linear
+O(1) --> Constant
+O(n^2) --> Quadratic
+
+Identifying the runtime complexity:
+
+1. Iterating with a single for loop through a single collection --> Probably O(n)
+2. Iterating through half a collection --> Still O(n). There are no constant on runtime.
+3. Iterating through 2 different collection with separate for loop --> O(n+m)
+4. Two nested for loops iterating over the same collection --> O(n^2)
+5. Two nested for loops iterating over different over different collection --> O(n*m)
+6. Sorting --> O(n*log(n))
+7. Searching sorted array --> O(log(n))
+
+Space complexity : How much memory required by the algorithm, if number of inout doubled.
+
+
+
+
+
