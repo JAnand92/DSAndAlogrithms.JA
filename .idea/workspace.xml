@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d9bcdc0-9b20-41be-84da-ee4c7f9eeb4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/udemyLectureProblems/ArrayChunking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemyLectureProblems/ArrayChunkingProb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +44,7 @@
       <recent name="C:\Development\QA\Programming\DSAndAlogrithms.JA" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciSeriesProb">
-    <configuration name="CapitalizationProb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.CapitalizationProb" />
-      <module name="DSAndAlogrithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="udemyLectureProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QueueUsingTwoStacks">
     <configuration name="FibonacciSeriesProb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.FibonacciSeriesProb" />
       <module name="DSAndAlogrithms" />
@@ -85,15 +71,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.ReverseWordsInString" />
+    <configuration name="QueueImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.QueueImplementation" />
       <module name="DSAndAlogrithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemyLectureProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StepsProb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.StepsProb" />
+    <configuration name="QueueUsingTwoStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.QueueUsingTwoStacks" />
+      <module name="DSAndAlogrithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemyLectureProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.StackImplementation" />
       <module name="DSAndAlogrithms" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueUsingTwoStacks" />
+        <item itemvalue="Application.StackImplementation" />
+        <item itemvalue="Application.QueueImplementation" />
         <item itemvalue="Application.FibonacciSeriesProb" />
         <item itemvalue="Application.FindVowelsProb" />
-        <item itemvalue="Application.StepsProb" />
-        <item itemvalue="Application.CapitalizationProb" />
-        <item itemvalue="Application.ReverseWordsInString" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +151,8 @@
       <workItem from="1579049508908" duration="8971000" />
       <workItem from="1579147847176" duration="16626000" />
       <workItem from="1579203692773" duration="8626000" />
-      <workItem from="1579218373051" duration="6042000" />
+      <workItem from="1579218373051" duration="6168000" />
+      <workItem from="1579275334289" duration="8954000" />
     </task>
     <servers />
   </component>
@@ -162,49 +168,49 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="858" y="86" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1579052474134" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1579223935344">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1579290183880">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579223935344" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1579223935343">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579290183880" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1579290183879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579223935343" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1579223935343">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579290183879" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1579290183879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579223935343" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1579223935344">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579290183879" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1579290183879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579223935343" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1579220605829">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579290183879" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1579227242688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579220605829" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1579220605829">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579227242688" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1579227242688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579220605829" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1579220605829">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579227242688" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1579227242688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579220605829" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1579220605829">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579227242688" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1579227242688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579220605829" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1579203692506">
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579227242688" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1579275334236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579203692506" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579275334236" />
     <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579151616899">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1579151616899" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579213491495">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579285713728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579213491495" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579285713728" />
   </component>
 </project>
