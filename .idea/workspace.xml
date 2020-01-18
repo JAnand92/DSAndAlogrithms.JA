@@ -44,22 +44,9 @@
       <recent name="C:\Development\QA\Programming\DSAndAlogrithms.JA" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueUsingTwoStacks">
+  <component name="RunManager" selected="Application.StackUsing2Queues">
     <configuration name="FibonacciSeriesProb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.FibonacciSeriesProb" />
-      <module name="DSAndAlogrithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="udemyLectureProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindVowelsProb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.FindVowelsProb" />
       <module name="DSAndAlogrithms" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackUsing2Queues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemyLectureProblems.StackUsing2Queues" />
+      <module name="DSAndAlogrithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemyLectureProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackUsing2Queues" />
         <item itemvalue="Application.QueueUsingTwoStacks" />
         <item itemvalue="Application.StackImplementation" />
         <item itemvalue="Application.QueueImplementation" />
         <item itemvalue="Application.FibonacciSeriesProb" />
-        <item itemvalue="Application.FindVowelsProb" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +152,7 @@
       <workItem from="1579147847176" duration="16626000" />
       <workItem from="1579203692773" duration="8626000" />
       <workItem from="1579218373051" duration="6168000" />
-      <workItem from="1579275334289" duration="8954000" />
+      <workItem from="1579275334289" duration="10777000" />
     </task>
     <servers />
   </component>
@@ -168,22 +168,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="858" y="86" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1579052474134" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1579290183880">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1579365600942">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579290183880" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1579290183879">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579365600942" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1579365600938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579290183879" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1579290183879">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579365600938" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1579365600938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579290183879" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1579290183879">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579365600938" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1579365600938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579290183879" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579365600938" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1579227242688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
